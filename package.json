@@ -1,15 +1,14 @@
 {
-  "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.1"
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "firebase": "^9.6.11"
   }
 }
